@@ -14,12 +14,22 @@
 
 let meta ={
     value: 'ler um livro todo mês',
-    checked: false,
-    isChecked: () => {}
+    //address: 2,
+    checked: true,
+    //log: (info) => {
+    //    console.log(info)
+    //}
 }
 
-console.log(meta.isChecked{})
+let metas = [
+    meta,
+    {
+        value: "caminhar 20 minutos todos os dias",
+        checked: false
+    }
+]
+
+// console.log(metas[1].value)
 
 // function // arrow function
 
-const criarMeta = () => {}
