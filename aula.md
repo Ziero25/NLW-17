@@ -34,8 +34,9 @@ Apresentar os dados
 
 ## Operadores:
 
-[x]Operadores de atribuição de valor
-[x]Operadores de concatenação 
+- [x]Operadores de atribuição de valor = 
+- [x]Operadores de concatenação +
+- [x] Operadores de comparação: == != <= => < > 
 
 ## Arrays:
 
@@ -59,6 +60,7 @@ Apresentar os dados
 # Condicionais
 
 - [x] Switch
+- [x] If and else
 
 # Módulos em Noje.js:
 
