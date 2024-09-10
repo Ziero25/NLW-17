@@ -12,24 +12,33 @@
 
 //console.log(metas[1] + ", " + metas[0])
 
-let meta ={
-    value: 'ler um livro todo mês',
+//let meta ={
+ //   value: 'ler um livro todo mês',
     //address: 2,
-    checked: true,
+  //  checked: true,
     //log: (info) => {
     //    console.log(info)
     //}
-}
+//}
 
-let metas = [
-    meta,
-    {
-        value: "caminhar 20 minutos todos os dias",
-        checked: false
-    }
-]
+//let metas = [
+  //  meta,
+   // {
+    //    value: "caminhar 20 minutos todos os dias",
+     //   checked: false
+    //}
+//]
 
 // console.log(metas[1].value)
 
 // function // arrow function
 
+const start = () => {
+    let count = 1
+    while(count <= 10){
+        console.log(count)
+        count++
+    }
+}
+
+start()
