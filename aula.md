@@ -55,3 +55,7 @@ Apresentar os dados
 # Estrutura de Repetição
 
 - [x]While
+
+# Condicionais
+
+- [x] Switch
