@@ -121,6 +121,12 @@ const deletarMetas = async () =>{
     const metasDesmarcadas = metas.map((meta) => {
         return { value: meta.value, checked: false }
     })
+
+    if(metasDesmarcadas.length == 0){
+        mensagem = "Não há meta(s) a serem deletada(s)"
+        return
+    }
+
     const itemsADeletar = await checkbox({
         message: "Selecione o item para deletar",
         choices: [...metasDesmarcadas],
