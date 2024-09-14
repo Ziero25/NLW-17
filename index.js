@@ -137,8 +137,14 @@ const deletarMetas = async () =>{
     console.log("Metas(s) deletada(s) com sucesso!")
 }
 
+const mostrarMensagem = () => {
+    console.clear();
+}
+
 const start = async () => {
     while(true){
+        mostrarMensagem()
+        
         const opcao = await select({
             message: "Menu >",
             choices: [
